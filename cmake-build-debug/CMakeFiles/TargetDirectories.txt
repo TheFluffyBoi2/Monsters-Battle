@@ -1,0 +1,3 @@
+C:/Users/dumit/CLionProjects/MonstersBattle/cmake-build-debug/CMakeFiles/MonstersBattle.dir
+C:/Users/dumit/CLionProjects/MonstersBattle/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dumit/CLionProjects/MonstersBattle/cmake-build-debug/CMakeFiles/rebuild_cache.dir
