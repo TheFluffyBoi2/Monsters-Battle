@@ -13,6 +13,7 @@ using namespace std;
 int gameLoop::alegeMonstru(Player player1)
 {
     cout << endl;
+//    system("Color 0A");
     cout << "Alegeti un mosntru: ";
     cout << endl;
     //parcurgem vectorul pentru a afisa monstrii disponibili
@@ -43,7 +44,6 @@ bool gameLoop::enemyMonsterDied(Enemy &enemy1) {
     //in caz ca vectorul devine gol, incheiam meciul
     if (enemy1.getVector().empty())
     {
-        cout << endl << "YOU WON!";
         return true;
     }
     return 0;
