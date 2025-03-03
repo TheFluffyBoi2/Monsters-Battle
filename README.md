@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Features](#features)
+- [Classes](#classes)
 
 
 ## Introduction
@@ -55,3 +56,9 @@ Optiuni:
 (4) Potiune (potiuni ramase: 0)
 (5) Switch
 ```
+
+## Classes
+- gameLoop: Is the main class of the game.
+- entity: An abstract class that outlines the caractheristics that a duelist should have.
+- player, enemy: Classes that inherits from the entity class. Each one of them have a different set of monsters.
+- attacks: Its the class that is used to calculate the outcome of every single attack along with the chance of said attack to inflict a status effect.
